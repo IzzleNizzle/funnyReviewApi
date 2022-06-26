@@ -12,7 +12,7 @@ function getRandomInt(min, max) {
 
 app.get('/one', (req, res) => {
     // return random review
-    let ind = getRandomInt(0, data.length)
+    let ind = getRandomInt(0, data.length - 1)
     res.json([data[ind]])
 })
 
