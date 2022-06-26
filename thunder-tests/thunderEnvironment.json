@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "0f2f93a2-06dc-4e2d-99a5-3f368e546ce1",
+    "name": "Prod",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-06-26T03:20:23.230Z",
+    "modified": "2022-06-26T03:21:29.100Z",
+    "data": [
+      {
+        "name": "main-url",
+        "value": "https://radiant-chamber-93525.herokuapp.com"
+      }
+    ]
+  },
+  {
+    "_id": "7891d8fc-8a65-476b-9469-5db6440c8b3f",
+    "name": "Local",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2022-06-26T03:29:19.648Z",
+    "modified": "2022-06-26T03:29:25.726Z",
+    "data": [
+      {
+        "name": "main-url",
+        "value": "localhost:3009"
+      }
+    ]
+  }
+]

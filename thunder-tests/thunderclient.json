@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "cedc2edc-0925-4c22-9bb6-661d0c24e585",
+    "colId": "38251beb-e497-43d0-93b2-fed03ccc3802",
+    "containerId": "",
+    "name": "Get One",
+    "url": "{{main-url}}/one",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-06-26T03:17:31.917Z",
+    "modified": "2022-06-26T03:40:45.046Z",
+    "headers": [],
+    "params": [],
+    "tests": [
+      {
+        "type": "res-code",
+        "custom": "",
+        "action": "equal",
+        "value": "200"
+      },
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "contains",
+        "value": "title"
+      },
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "contains",
+        "value": "body"
+      }
+    ]
+  },
+  {
+    "_id": "577cc524-66d1-4462-85c0-d7f92d7cdb21",
+    "colId": "38251beb-e497-43d0-93b2-fed03ccc3802",
+    "containerId": "",
+    "name": "Get All",
+    "url": "{{main-url}}/all",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-06-26T03:39:18.934Z",
+    "modified": "2022-06-26T03:39:42.110Z",
+    "headers": [],
+    "params": [],
+    "tests": [
+      {
+        "type": "res-code",
+        "custom": "",
+        "action": "equal",
+        "value": "200"
+      },
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "contains",
+        "value": "title"
+      },
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "contains",
+        "value": "body"
+      }
+    ]
+  }
+]
